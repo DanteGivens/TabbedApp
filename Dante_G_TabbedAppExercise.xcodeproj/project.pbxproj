@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5518ED424DC809D001AC1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518ED324DC809D001AC1E5 /* AppDelegate.swift */; };
+		B5518ED624DC809D001AC1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518ED524DC809D001AC1E5 /* SceneDelegate.swift */; };
+		B5518ED824DC809D001AC1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518ED724DC809D001AC1E5 /* ViewController.swift */; };
+		B5518EDB24DC809D001AC1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5518ED924DC809D001AC1E5 /* Main.storyboard */; };
+		B5518EDD24DC809F001AC1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5518EDC24DC809F001AC1E5 /* Assets.xcassets */; };
+		B5518EE024DC809F001AC1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5518EDE24DC809F001AC1E5 /* LaunchScreen.storyboard */; };
+		B5518EEB24DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518EEA24DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.swift */; };
+		B5518EF624DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5518EF524DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5518EE724DC80A0001AC1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5518EC824DC809D001AC1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5518ECF24DC809D001AC1E5;
+			remoteInfo = Dante_G_TabbedAppExercise;
+		};
+		B5518EF224DC80A0001AC1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5518EC824DC809D001AC1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5518ECF24DC809D001AC1E5;
+			remoteInfo = Dante_G_TabbedAppExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5518ED024DC809D001AC1E5 /* Dante_G_TabbedAppExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dante_G_TabbedAppExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518ED324DC809D001AC1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5518ED524DC809D001AC1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5518ED724DC809D001AC1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5518EDA24DC809D001AC1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5518EDC24DC809F001AC1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5518EDF24DC809F001AC1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5518EE124DC809F001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5518EE624DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_TabbedAppExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518EEA24DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_TabbedAppExerciseTests.swift; sourceTree = "<group>"; };
+		B5518EEC24DC80A0001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5518EF124DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_TabbedAppExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5518EF524DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_TabbedAppExerciseUITests.swift; sourceTree = "<group>"; };
+		B5518EF724DC80A0001AC1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5518ECD24DC809D001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EE324DC80A0001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EEE24DC80A0001AC1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5518EC724DC809D001AC1E5 = {
+			isa = PBXGroup;
+			children = (
+				B5518ED224DC809D001AC1E5 /* Dante_G_TabbedAppExercise */,
+				B5518EE924DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests */,
+				B5518EF424DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests */,
+				B5518ED124DC809D001AC1E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5518ED124DC809D001AC1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5518ED024DC809D001AC1E5 /* Dante_G_TabbedAppExercise.app */,
+				B5518EE624DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.xctest */,
+				B5518EF124DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5518ED224DC809D001AC1E5 /* Dante_G_TabbedAppExercise */ = {
+			isa = PBXGroup;
+			children = (
+				B5518ED324DC809D001AC1E5 /* AppDelegate.swift */,
+				B5518ED524DC809D001AC1E5 /* SceneDelegate.swift */,
+				B5518ED724DC809D001AC1E5 /* ViewController.swift */,
+				B5518ED924DC809D001AC1E5 /* Main.storyboard */,
+				B5518EDC24DC809F001AC1E5 /* Assets.xcassets */,
+				B5518EDE24DC809F001AC1E5 /* LaunchScreen.storyboard */,
+				B5518EE124DC809F001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_TabbedAppExercise;
+			sourceTree = "<group>";
+		};
+		B5518EE924DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5518EEA24DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.swift */,
+				B5518EEC24DC80A0001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_TabbedAppExerciseTests;
+			sourceTree = "<group>";
+		};
+		B5518EF424DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5518EF524DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.swift */,
+				B5518EF724DC80A0001AC1E5 /* Info.plist */,
+			);
+			path = Dante_G_TabbedAppExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5518ECF24DC809D001AC1E5 /* Dante_G_TabbedAppExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518EFA24DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExercise" */;
+			buildPhases = (
+				B5518ECC24DC809D001AC1E5 /* Sources */,
+				B5518ECD24DC809D001AC1E5 /* Frameworks */,
+				B5518ECE24DC809D001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dante_G_TabbedAppExercise;
+			productName = Dante_G_TabbedAppExercise;
+			productReference = B5518ED024DC809D001AC1E5 /* Dante_G_TabbedAppExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5518EE524DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518EFD24DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExerciseTests" */;
+			buildPhases = (
+				B5518EE224DC80A0001AC1E5 /* Sources */,
+				B5518EE324DC80A0001AC1E5 /* Frameworks */,
+				B5518EE424DC80A0001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5518EE824DC80A0001AC1E5 /* PBXTargetDependency */,
+			);
+			name = Dante_G_TabbedAppExerciseTests;
+			productName = Dante_G_TabbedAppExerciseTests;
+			productReference = B5518EE624DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5518EF024DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5518F0024DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExerciseUITests" */;
+			buildPhases = (
+				B5518EED24DC80A0001AC1E5 /* Sources */,
+				B5518EEE24DC80A0001AC1E5 /* Frameworks */,
+				B5518EEF24DC80A0001AC1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5518EF324DC80A0001AC1E5 /* PBXTargetDependency */,
+			);
+			name = Dante_G_TabbedAppExerciseUITests;
+			productName = Dante_G_TabbedAppExerciseUITests;
+			productReference = B5518EF124DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5518EC824DC809D001AC1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dante Givens";
+				TargetAttributes = {
+					B5518ECF24DC809D001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B5518EE524DC80A0001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B5518ECF24DC809D001AC1E5;
+					};
+					B5518EF024DC80A0001AC1E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B5518ECF24DC809D001AC1E5;
+					};
+				};
+			};
+			buildConfigurationList = B5518ECB24DC809D001AC1E5 /* Build configuration list for PBXProject "Dante_G_TabbedAppExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5518EC724DC809D001AC1E5;
+			productRefGroup = B5518ED124DC809D001AC1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5518ECF24DC809D001AC1E5 /* Dante_G_TabbedAppExercise */,
+				B5518EE524DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests */,
+				B5518EF024DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5518ECE24DC809D001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EE024DC809F001AC1E5 /* LaunchScreen.storyboard in Resources */,
+				B5518EDD24DC809F001AC1E5 /* Assets.xcassets in Resources */,
+				B5518EDB24DC809D001AC1E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EE424DC80A0001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EEF24DC80A0001AC1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5518ECC24DC809D001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518ED824DC809D001AC1E5 /* ViewController.swift in Sources */,
+				B5518ED424DC809D001AC1E5 /* AppDelegate.swift in Sources */,
+				B5518ED624DC809D001AC1E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EE224DC80A0001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EEB24DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5518EED24DC80A0001AC1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5518EF624DC80A0001AC1E5 /* Dante_G_TabbedAppExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5518EE824DC80A0001AC1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5518ECF24DC809D001AC1E5 /* Dante_G_TabbedAppExercise */;
+			targetProxy = B5518EE724DC80A0001AC1E5 /* PBXContainerItemProxy */;
+		};
+		B5518EF324DC80A0001AC1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5518ECF24DC809D001AC1E5 /* Dante_G_TabbedAppExercise */;
+			targetProxy = B5518EF224DC80A0001AC1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5518ED924DC809D001AC1E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5518EDA24DC809D001AC1E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5518EDE24DC809F001AC1E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5518EDF24DC809F001AC1E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5518EF824DC80A0001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5518EF924DC80A0001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5518EFB24DC80A0001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5518EFC24DC80A0001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5518EFE24DC80A0001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_TabbedAppExercise.app/Dante_G_TabbedAppExercise";
+			};
+			name = Debug;
+		};
+		B5518EFF24DC80A0001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_TabbedAppExercise.app/Dante_G_TabbedAppExercise";
+			};
+			name = Release;
+		};
+		B5518F0124DC80A0001AC1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_TabbedAppExercise;
+			};
+			name = Debug;
+		};
+		B5518F0224DC80A0001AC1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_TabbedAppExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-TabbedAppExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_TabbedAppExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5518ECB24DC809D001AC1E5 /* Build configuration list for PBXProject "Dante_G_TabbedAppExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EF824DC80A0001AC1E5 /* Debug */,
+				B5518EF924DC80A0001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518EFA24DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EFB24DC80A0001AC1E5 /* Debug */,
+				B5518EFC24DC80A0001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518EFD24DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518EFE24DC80A0001AC1E5 /* Debug */,
+				B5518EFF24DC80A0001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5518F0024DC80A0001AC1E5 /* Build configuration list for PBXNativeTarget "Dante_G_TabbedAppExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5518F0124DC80A0001AC1E5 /* Debug */,
+				B5518F0224DC80A0001AC1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5518EC824DC809D001AC1E5 /* Project object */;
+}
